@@ -1,18 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Design from './Design';
+
 import Code from './Code';
-import userform from './Create';
-import { useState } from 'react';
+import Memo from './Memo';
+import Ref from './Ref';
+
 
 
 function App() {
   return (
     <div className="App">
-     <Code></Code>
-
+     {/* <Code></Code> */}
+    {/* <Ref></Ref> */}
+    <Memo></Memo>
     </div>
   );
 }
+
 
 export default App;
